@@ -1,0 +1,44 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "Instruction_Mem_IP_Address_Adder_0_2",
+    "cell_name": "Address_Adder_2",
+    "component_reference": "xilinx.com:module_ref:Address_Adder:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../vsp.gen/sources_1/bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_Address_Adder_0_2",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "Instruction_Mem_IP_Address_Adder_0_2", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "digilentinc.com:zybo-z7-10:part0:1.2" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z010" } ],
+        "PACKAGE": [ { "value": "clg400" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../vsp.gen/sources_1/bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_Address_Adder_0_2" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2023.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "IN_0": [ { "direction": "in", "size_left": "9", "size_right": "0" } ],
+        "OUT_0": [ { "direction": "out", "size_left": "9", "size_right": "0" } ]
+      }
+    }
+  }
+}

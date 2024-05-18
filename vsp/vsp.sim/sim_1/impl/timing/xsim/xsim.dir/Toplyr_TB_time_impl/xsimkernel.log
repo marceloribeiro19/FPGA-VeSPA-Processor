@@ -1,0 +1,7 @@
+Running: xsim.dir/Toplyr_TB_time_impl/xsimk -simmode gui -wdb Toplyr_TB_time_impl.wdb -simrunnum 0 -socket 39869
+Design successfully loaded
+Design Loading Memory Usage: 24572 KB (Peak: 24836 KB)
+Design Loading CPU Usage: 40 ms
+Simulation completed
+Simulation Memory Usage: 110668 KB (Peak: 163840 KB)
+Simulation CPU Usage: 40 ms

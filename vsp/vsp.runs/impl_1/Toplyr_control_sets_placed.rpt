@@ -1,0 +1,98 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Jan 15 22:14:25 2024
+| Host         : marcelopc running 64-bit Ubuntu 22.04.3 LTS
+| Command      : report_control_sets -verbose -file Toplyr_control_sets_placed.rpt
+| Design       : Toplyr
+| Device       : xc7z010
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    20 |
+|    Minimum number of control sets                        |    20 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   118 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    20 |
+| >= 0 to < 4        |    12 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     4 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              56 |           23 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              26 |            8 |
+| Yes          | No                    | No                     |               9 |            2 |
+| Yes          | No                    | Yes                    |               5 |            2 |
+| Yes          | Yes                   | No                     |              26 |           23 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+---------------------------------------------+------------------------+------------------+----------------+--------------+
+|        Clock Signal        |                Enable Signal                |    Set/Reset Signal    | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------+---------------------------------------------+------------------------+------------------+----------------+--------------+
+| ~KeyBoard_clk_IBUF_BUFG    | ps2_CTRL/data_curr[5]_i_1_n_1               | ps2_CTRL/count_0       |                1 |              1 |         1.00 |
+|  sysclk_IBUF_BUFG          |                                             |                        |                1 |              1 |         1.00 |
+| ~VeSPA_clk_BUFG            |                                             |                        |                1 |              1 |         1.00 |
+| ~KeyBoard_clk_IBUF_BUFG    | ps2_CTRL/data_curr[7]                       | ps2_CTRL/count_0       |                1 |              1 |         1.00 |
+| ~KeyBoard_clk_IBUF_BUFG    | ps2_CTRL/data_curr[6]                       | ps2_CTRL/count_0       |                1 |              1 |         1.00 |
+| ~KeyBoard_clk_IBUF_BUFG    | ps2_CTRL/data_curr[4]_i_1_n_1               | ps2_CTRL/count_0       |                1 |              1 |         1.00 |
+| ~KeyBoard_clk_IBUF_BUFG    | ps2_CTRL/data_curr[3]_i_1_n_1               | ps2_CTRL/count_0       |                1 |              1 |         1.00 |
+| ~KeyBoard_clk_IBUF_BUFG    | ps2_CTRL/data_curr[1]_i_1_n_1               | ps2_CTRL/count_0       |                1 |              1 |         1.00 |
+| ~KeyBoard_clk_IBUF_BUFG    | ps2_CTRL/data_curr[0]_i_1_n_1               | ps2_CTRL/count_0       |                1 |              1 |         1.00 |
+| ~KeyBoard_clk_IBUF_BUFG    | ps2_CTRL/data_curr[2]_i_1_n_1               | ps2_CTRL/count_0       |                1 |              1 |         1.00 |
+|  VeSPA_clk_BUFG            |                                             |                        |                1 |              3 |         3.00 |
+|  CPU/DP/CODE_MEM_IP/Carry0 |                                             |                        |                1 |              3 |         3.00 |
+|  VeSPA_clk_BUFG            | CPU/ControlUnit/FSM_onehot_State[4]_i_1_n_1 | rst_IBUF               |                2 |              5 |         2.50 |
+| ~KeyBoard_clk_IBUF_BUFG    |                                             |                        |                3 |              7 |         2.33 |
+| ~ps2_CTRL/flag             |                                             |                        |                1 |              8 |         8.00 |
+|  VeSPA_clk_BUFG            | CPU/ControlUnit/Q[0]                        | rst_IBUF               |                7 |              9 |         1.29 |
+| ~VeSPA_clk_BUFG            | CPU/DP/CODE_MEM_IP/E[0]                     |                        |                2 |              9 |         4.50 |
+| ~VeSPA_clk_BUFG            | CPU/ControlUnit/InterruptCTRL/E[0]          | rst_IBUF               |                8 |              9 |         1.12 |
+|  sysclk_IBUF_BUFG          |                                             | CLOCK_ON_OFF/OneHz_CLK |                8 |             26 |         3.25 |
+|  n_0_114_BUFG              |                                             |                        |               15 |             33 |         2.20 |
++----------------------------+---------------------------------------------+------------------------+------------------+----------------+--------------+
+
+

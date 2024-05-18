@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Toplyr_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Toplyr_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,042.895 ns"></ZoomEndTime>
+      <Cursor1Time time="360.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="190"></NameColumnWidth>
+      <ValueColumnWidth column_width="89"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/i_intr_enable">
+      <obj_property name="ElementShortName">i_intr_enable</obj_property>
+      <obj_property name="ObjectShortName">i_intr_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/i_intr_request1">
+      <obj_property name="ElementShortName">i_intr_request1</obj_property>
+      <obj_property name="ObjectShortName">i_intr_request1</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/i_intr_enable_mask">
+      <obj_property name="ElementShortName">i_intr_enable_mask[1:0]</obj_property>
+      <obj_property name="ObjectShortName">i_intr_enable_mask[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/i_intr_request2">
+      <obj_property name="ElementShortName">i_intr_request2</obj_property>
+      <obj_property name="ObjectShortName">i_intr_request2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/o_interrupt_vector">
+      <obj_property name="ElementShortName">o_interrupt_vector[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_interrupt_vector[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/o_interrupt_signal">
+      <obj_property name="ElementShortName">o_interrupt_signal</obj_property>
+      <obj_property name="ObjectShortName">o_interrupt_signal</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/intr_ended_ack">
+      <obj_property name="ElementShortName">intr_ended_ack</obj_property>
+      <obj_property name="ObjectShortName">intr_ended_ack</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/ps2_CTRL/key">
+      <obj_property name="ElementShortName">key[7:0]</obj_property>
+      <obj_property name="ObjectShortName">key[7:0]</obj_property>
+   </wvobject>
+</wave_config>

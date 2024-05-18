@@ -1,0 +1,398 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xDAD55673889A7064",
+      "device": "xc7z010clg400-1",
+      "gen_directory": "../../../../vsp.gen/sources_1/bd/Instruction_Mem_IP",
+      "name": "Instruction_Mem_IP",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "IP_Instruction_31_24": "",
+      "IP_Instruction_07_00": "",
+      "IP_Instruction_15_08": "",
+      "IP_Instruction_23_16": "",
+      "Address_Adder_1": "",
+      "Address_Adder_2": "",
+      "Address_Adder_3": "",
+      "Conct_Out_RAM_0": ""
+    },
+    "ports": {
+      "PC_IN": {
+        "direction": "I",
+        "left": "9",
+        "right": "0"
+      },
+      "clka_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "Instruction_Mem_IP_clka_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "Full_Instruction": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      }
+    },
+    "components": {
+      "IP_Instruction_31_24": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "Instruction_Mem_IP_blk_mem_gen_0_0",
+        "xci_path": "ip/Instruction_Mem_IP_blk_mem_gen_0_0/Instruction_Mem_IP_blk_mem_gen_0_0.xci",
+        "inst_hier_path": "IP_Instruction_31_24",
+        "parameters": {
+          "Coe_File": {
+            "value": "../Program.coe"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Fill_Remaining_Memory_Locations": {
+            "value": "true"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Operating_Mode_A": {
+            "value": "READ_FIRST"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "1024"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "IP_Instruction_07_00": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "Instruction_Mem_IP_IP_Instruction_31_24_0",
+        "xci_path": "ip/Instruction_Mem_IP_IP_Instruction_31_24_0/Instruction_Mem_IP_IP_Instruction_31_24_0.xci",
+        "inst_hier_path": "IP_Instruction_07_00",
+        "parameters": {
+          "Coe_File": {
+            "value": "../Program.coe"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Fill_Remaining_Memory_Locations": {
+            "value": "true"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Operating_Mode_A": {
+            "value": "READ_FIRST"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "1024"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "IP_Instruction_15_08": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "Instruction_Mem_IP_IP_Instruction_31_24_1",
+        "xci_path": "ip/Instruction_Mem_IP_IP_Instruction_31_24_1/Instruction_Mem_IP_IP_Instruction_31_24_1.xci",
+        "inst_hier_path": "IP_Instruction_15_08",
+        "parameters": {
+          "Coe_File": {
+            "value": "../Program.coe"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Fill_Remaining_Memory_Locations": {
+            "value": "true"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Operating_Mode_A": {
+            "value": "READ_FIRST"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "1024"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "IP_Instruction_23_16": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "Instruction_Mem_IP_IP_Instruction_31_24_2",
+        "xci_path": "ip/Instruction_Mem_IP_IP_Instruction_31_24_2/Instruction_Mem_IP_IP_Instruction_31_24_2.xci",
+        "inst_hier_path": "IP_Instruction_23_16",
+        "parameters": {
+          "Coe_File": {
+            "value": "../Program.coe"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Fill_Remaining_Memory_Locations": {
+            "value": "true"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Operating_Mode_A": {
+            "value": "READ_FIRST"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "1024"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "Address_Adder_1": {
+        "vlnv": "xilinx.com:module_ref:Address_Adder:1.0",
+        "ip_revision": "1",
+        "xci_name": "Instruction_Mem_IP_Address_Adder_0_1",
+        "xci_path": "ip/Instruction_Mem_IP_Address_Adder_0_1/Instruction_Mem_IP_Address_Adder_0_1.xci",
+        "inst_hier_path": "Address_Adder_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Address_Adder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "IN_0": {
+            "direction": "I",
+            "left": "9",
+            "right": "0"
+          },
+          "OUT_0": {
+            "direction": "O",
+            "left": "9",
+            "right": "0"
+          }
+        }
+      },
+      "Address_Adder_2": {
+        "vlnv": "xilinx.com:module_ref:Address_Adder:1.0",
+        "ip_revision": "1",
+        "xci_name": "Instruction_Mem_IP_Address_Adder_0_2",
+        "xci_path": "ip/Instruction_Mem_IP_Address_Adder_0_2/Instruction_Mem_IP_Address_Adder_0_2.xci",
+        "inst_hier_path": "Address_Adder_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Address_Adder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "IN_0": {
+            "direction": "I",
+            "left": "9",
+            "right": "0"
+          },
+          "OUT_0": {
+            "direction": "O",
+            "left": "9",
+            "right": "0"
+          }
+        }
+      },
+      "Address_Adder_3": {
+        "vlnv": "xilinx.com:module_ref:Address_Adder:1.0",
+        "ip_revision": "1",
+        "xci_name": "Instruction_Mem_IP_Address_Adder_1_0",
+        "xci_path": "ip/Instruction_Mem_IP_Address_Adder_1_0/Instruction_Mem_IP_Address_Adder_1_0.xci",
+        "inst_hier_path": "Address_Adder_3",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Address_Adder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "IN_0": {
+            "direction": "I",
+            "left": "9",
+            "right": "0"
+          },
+          "OUT_0": {
+            "direction": "O",
+            "left": "9",
+            "right": "0"
+          }
+        }
+      },
+      "Conct_Out_RAM_0": {
+        "vlnv": "xilinx.com:module_ref:Conct_Out_RAM:1.0",
+        "ip_revision": "1",
+        "xci_name": "Instruction_Mem_IP_Conct_Out_RAM_0_0",
+        "xci_path": "ip/Instruction_Mem_IP_Conct_Out_RAM_0_0/Instruction_Mem_IP_Conct_Out_RAM_0_0.xci",
+        "inst_hier_path": "Conct_Out_RAM_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Conct_Out_RAM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "Instruction_Mem_IP_clka_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "in31_24": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "in23_16": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "in15_08": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "in07_00": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "DATA": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Address_Adder_1_OUT_0": {
+        "ports": [
+          "Address_Adder_1/OUT_0",
+          "IP_Instruction_23_16/addra",
+          "Address_Adder_2/IN_0"
+        ]
+      },
+      "Address_Adder_2_OUT_0": {
+        "ports": [
+          "Address_Adder_2/OUT_0",
+          "IP_Instruction_15_08/addra",
+          "Address_Adder_3/IN_0"
+        ]
+      },
+      "Address_Adder_3_OUT_0": {
+        "ports": [
+          "Address_Adder_3/OUT_0",
+          "IP_Instruction_07_00/addra"
+        ]
+      },
+      "Conct_Out_RAM_0_DATA": {
+        "ports": [
+          "Conct_Out_RAM_0/DATA",
+          "Full_Instruction"
+        ]
+      },
+      "IP_Instruction_07_00_douta": {
+        "ports": [
+          "IP_Instruction_07_00/douta",
+          "Conct_Out_RAM_0/in07_00"
+        ]
+      },
+      "IP_Instruction_23_16_douta": {
+        "ports": [
+          "IP_Instruction_15_08/douta",
+          "Conct_Out_RAM_0/in15_08"
+        ]
+      },
+      "IP_Instruction_23_16douta": {
+        "ports": [
+          "IP_Instruction_23_16/douta",
+          "Conct_Out_RAM_0/in23_16"
+        ]
+      },
+      "IP_Instruction_31_24_douta": {
+        "ports": [
+          "IP_Instruction_31_24/douta",
+          "Conct_Out_RAM_0/in31_24"
+        ]
+      },
+      "addra_0_1": {
+        "ports": [
+          "PC_IN",
+          "IP_Instruction_31_24/addra",
+          "Address_Adder_1/IN_0"
+        ]
+      },
+      "clka_0_1": {
+        "ports": [
+          "clka_0",
+          "IP_Instruction_31_24/clka",
+          "IP_Instruction_23_16/clka",
+          "IP_Instruction_15_08/clka",
+          "IP_Instruction_07_00/clka",
+          "Conct_Out_RAM_0/clk"
+        ]
+      }
+    }
+  }
+}

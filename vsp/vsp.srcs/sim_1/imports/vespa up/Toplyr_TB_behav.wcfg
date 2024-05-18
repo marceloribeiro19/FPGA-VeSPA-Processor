@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Toplyr_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Toplyr_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="152.801 ns"></ZoomEndTime>
+      <Cursor1Time time="950.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="169"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="52" />
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/PS2_clk">
+      <obj_property name="ElementShortName">PS2_clk</obj_property>
+      <obj_property name="ObjectShortName">PS2_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/PCload">
+      <obj_property name="ElementShortName">PCload</obj_property>
+      <obj_property name="ObjectShortName">PCload</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/ControlUnit/State">
+      <obj_property name="ElementShortName">State[2:0]</obj_property>
+      <obj_property name="ObjectShortName">State[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/PCMUX/Current_PC">
+      <obj_property name="ElementShortName">Current_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Current_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/PCounter/PCout">
+      <obj_property name="ElementShortName">PCout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/PCounter/PCin">
+      <obj_property name="ElementShortName">PCin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/PCMUX/PCsource">
+      <obj_property name="ElementShortName">PCsource[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCsource[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/CODE_MEM_IP/PC_IN">
+      <obj_property name="ElementShortName">PC_IN[9:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_IN[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/CODE_MEM_IP/Full_Instruction">
+      <obj_property name="ElementShortName">Full_Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Full_Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/opcode">
+      <obj_property name="ElementShortName">opcode[4:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/aluInst/ALUoperation">
+      <obj_property name="ElementShortName">ALUoperation[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUoperation[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/Decode/rs1">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/Decode/rs2">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/Decode/rdst">
+      <obj_property name="ElementShortName">rdst[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdst[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/aluInst/source1">
+      <obj_property name="ElementShortName">source1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">source1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/aluInst/source2">
+      <obj_property name="ElementShortName">source2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">source2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/aluInst/result">
+      <obj_property name="ElementShortName">result[32:0]</obj_property>
+      <obj_property name="ObjectShortName">result[32:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/isr1">
+      <obj_property name="ElementShortName">isr1</obj_property>
+      <obj_property name="ObjectShortName">isr1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/isr2">
+      <obj_property name="ElementShortName">isr2</obj_property>
+      <obj_property name="ObjectShortName">isr2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/intr_ended_ack">
+      <obj_property name="ElementShortName">intr_ended_ack</obj_property>
+      <obj_property name="ObjectShortName">intr_ended_ack</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/INTR_BOT2">
+      <obj_property name="ElementShortName">INTR_BOT2</obj_property>
+      <obj_property name="ObjectShortName">INTR_BOT2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/INTR_BOT1">
+      <obj_property name="ElementShortName">INTR_BOT1</obj_property>
+      <obj_property name="ObjectShortName">INTR_BOT1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/i_intr_request1">
+      <obj_property name="ElementShortName">i_intr_request1</obj_property>
+      <obj_property name="ObjectShortName">i_intr_request1</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/o_interrupt_vector">
+      <obj_property name="ElementShortName">o_interrupt_vector[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_interrupt_vector[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/o_interrupt_signal">
+      <obj_property name="ElementShortName">o_interrupt_signal</obj_property>
+      <obj_property name="ObjectShortName">o_interrupt_signal</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/Zero">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/Carry">
+      <obj_property name="ElementShortName">Carry</obj_property>
+      <obj_property name="ObjectShortName">Carry</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/Negative">
+      <obj_property name="ElementShortName">Negative</obj_property>
+      <obj_property name="ObjectShortName">Negative</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/Overflow">
+      <obj_property name="ElementShortName">Overflow</obj_property>
+      <obj_property name="ObjectShortName">Overflow</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/Register_FILE_IP/WriteData">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/Register_FILE_IP/WriteAddr">
+      <obj_property name="ElementShortName">WriteAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteAddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/Register_FILE_IP/readReg1">
+      <obj_property name="ElementShortName">readReg1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readReg1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/Register_FILE_IP/readReg2">
+      <obj_property name="ElementShortName">readReg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readReg2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/ram_IP/RAM_write">
+      <obj_property name="ElementShortName">RAM_write[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_write[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/ram_IP/RAM_read">
+      <obj_property name="ElementShortName">RAM_read[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_read[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/ram_IP/addr_RAM">
+      <obj_property name="ElementShortName">addr_RAM[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_RAM[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/ram_IP/wea_0">
+      <obj_property name="ElementShortName">wea_0[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea_0[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/branchValid">
+      <obj_property name="ElementShortName">branchValid</obj_property>
+      <obj_property name="ObjectShortName">branchValid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/bit_changeCC">
+      <obj_property name="ElementShortName">bit_changeCC</obj_property>
+      <obj_property name="ObjectShortName">bit_changeCC</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/Register_FILE_IP/readReg2">
+      <obj_property name="ElementShortName">readReg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readReg2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/ram_IP/design_1_i/RAM_IP_15_08/inst/\native_mem_module.blk_mem_gen_v8_4_7_inst /memory">
+      <obj_property name="ElementShortName">memory[0:2047][7:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:2047][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/Register_FILE_IP/RegFile_IP_i/RegFile_IP_rdst_Reg1/inst/\native_mem_module.blk_mem_gen_v8_4_7_inst /memory">
+      <obj_property name="ElementShortName">memory[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/bit16">
+      <obj_property name="ElementShortName">bit16</obj_property>
+      <obj_property name="ObjectShortName">bit16</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/sext22">
+      <obj_property name="ElementShortName">sext22[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sext22[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/Flag_Memread">
+      <obj_property name="ElementShortName">Flag_Memread</obj_property>
+      <obj_property name="ObjectShortName">Flag_Memread</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/Flag_Memwrite">
+      <obj_property name="ElementShortName">Flag_Memwrite</obj_property>
+      <obj_property name="ObjectShortName">Flag_Memwrite</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/Flag_RegWrite">
+      <obj_property name="ElementShortName">Flag_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">Flag_RegWrite</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/Flag_Indexed">
+      <obj_property name="ElementShortName">Flag_Indexed</obj_property>
+      <obj_property name="ObjectShortName">Flag_Indexed</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/ImmedMemAddress">
+      <obj_property name="ElementShortName">ImmedMemAddress</obj_property>
+      <obj_property name="ObjectShortName">ImmedMemAddress</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/RegDest">
+      <obj_property name="ElementShortName">RegDest</obj_property>
+      <obj_property name="ObjectShortName">RegDest</obj_property>
+   </wvobject>
+</wave_config>

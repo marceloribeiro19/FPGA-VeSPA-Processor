@@ -1,0 +1,418 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x1428800B9F58E8C",
+      "device": "xc7z010clg400-1",
+      "gen_directory": "../../../../vsp.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Conct_Out_RAM": "",
+      "RAM_IP_07_00": "",
+      "RAM_IP_23_16": "",
+      "RAM_IP_15_08": "",
+      "RAM_IP_31_24": "",
+      "SliptD_IN_RAM": ""
+    },
+    "ports": {
+      "RAM_write": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "RAM_read": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "wea_0": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "clka_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_clka_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "addr_RAM": {
+        "direction": "I",
+        "left": "10",
+        "right": "0"
+      }
+    },
+    "components": {
+      "Conct_Out_RAM": {
+        "vlnv": "xilinx.com:module_ref:Conct_Out_RAM:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_Conct_Out_RAM_0_1",
+        "xci_path": "ip/design_1_Conct_Out_RAM_0_1/design_1_Conct_Out_RAM_0_1.xci",
+        "inst_hier_path": "Conct_Out_RAM",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Conct_Out_RAM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "design_1_clka_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "in31_24": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "in23_16": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "in15_08": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "in07_00": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "DATA": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "RAM_IP_07_00": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "design_1_RAM_IP_31_24_0",
+        "xci_path": "ip/design_1_RAM_IP_31_24_0/design_1_RAM_IP_31_24_0.xci",
+        "inst_hier_path": "RAM_IP_07_00",
+        "parameters": {
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Fill_Remaining_Memory_Locations": {
+            "value": "true"
+          },
+          "Operating_Mode_A": {
+            "value": "READ_FIRST"
+          },
+          "Read_Width_A": {
+            "value": "8"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "false"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "2048"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "RAM_IP_23_16": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "design_1_RAM_IP_31_24_1",
+        "xci_path": "ip/design_1_RAM_IP_31_24_1/design_1_RAM_IP_31_24_1.xci",
+        "inst_hier_path": "RAM_IP_23_16",
+        "parameters": {
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Fill_Remaining_Memory_Locations": {
+            "value": "true"
+          },
+          "Operating_Mode_A": {
+            "value": "READ_FIRST"
+          },
+          "Read_Width_A": {
+            "value": "8"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "false"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "2048"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "RAM_IP_15_08": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "design_1_RAM_IP_31_24_2",
+        "xci_path": "ip/design_1_RAM_IP_31_24_2/design_1_RAM_IP_31_24_2.xci",
+        "inst_hier_path": "RAM_IP_15_08",
+        "parameters": {
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Fill_Remaining_Memory_Locations": {
+            "value": "true"
+          },
+          "Operating_Mode_A": {
+            "value": "READ_FIRST"
+          },
+          "Read_Width_A": {
+            "value": "8"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "false"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "2048"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "RAM_IP_31_24": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "design_1_blk_mem_gen_0_0",
+        "xci_path": "ip/design_1_blk_mem_gen_0_0_1/design_1_blk_mem_gen_0_0.xci",
+        "inst_hier_path": "RAM_IP_31_24",
+        "parameters": {
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Fill_Remaining_Memory_Locations": {
+            "value": "true"
+          },
+          "Operating_Mode_A": {
+            "value": "READ_FIRST"
+          },
+          "Read_Width_A": {
+            "value": "8"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "false"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "2048"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "SliptD_IN_RAM": {
+        "vlnv": "xilinx.com:module_ref:SliptD_IN_RAM:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_SliptD_IN_RAM_0_1",
+        "xci_path": "ip/design_1_SliptD_IN_RAM_0_1/design_1_SliptD_IN_RAM_0_1.xci",
+        "inst_hier_path": "SliptD_IN_RAM",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "SliptD_IN_RAM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "DATA": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out31_24": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "out23_16": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "out15_08": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "out07_00": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Conct_Out_RAM_0_DATA": {
+        "ports": [
+          "Conct_Out_RAM/DATA",
+          "RAM_read"
+        ]
+      },
+      "DATA_1_1": {
+        "ports": [
+          "RAM_write",
+          "SliptD_IN_RAM/DATA"
+        ]
+      },
+      "RAM_IP_07_00_douta": {
+        "ports": [
+          "RAM_IP_07_00/douta",
+          "Conct_Out_RAM/in07_00"
+        ]
+      },
+      "RAM_IP_15_08_douta": {
+        "ports": [
+          "RAM_IP_15_08/douta",
+          "Conct_Out_RAM/in15_08"
+        ]
+      },
+      "RAM_IP_23_16_douta": {
+        "ports": [
+          "RAM_IP_23_16/douta",
+          "Conct_Out_RAM/in23_16"
+        ]
+      },
+      "RAM_IP_31_24_douta": {
+        "ports": [
+          "RAM_IP_31_24/douta",
+          "Conct_Out_RAM/in31_24"
+        ]
+      },
+      "SliptD_IN_RAM_0_out07_00": {
+        "ports": [
+          "SliptD_IN_RAM/out07_00",
+          "RAM_IP_07_00/dina"
+        ]
+      },
+      "SliptD_IN_RAM_0_out15_08": {
+        "ports": [
+          "SliptD_IN_RAM/out15_08",
+          "RAM_IP_15_08/dina"
+        ]
+      },
+      "SliptD_IN_RAM_0_out23_16": {
+        "ports": [
+          "SliptD_IN_RAM/out23_16",
+          "RAM_IP_23_16/dina"
+        ]
+      },
+      "SliptD_IN_RAM_0_out31_24": {
+        "ports": [
+          "SliptD_IN_RAM/out31_24",
+          "RAM_IP_31_24/dina"
+        ]
+      },
+      "addra_0_2": {
+        "ports": [
+          "addr_RAM",
+          "RAM_IP_07_00/addra",
+          "RAM_IP_23_16/addra",
+          "RAM_IP_15_08/addra",
+          "RAM_IP_31_24/addra"
+        ]
+      },
+      "clka_0_2": {
+        "ports": [
+          "clka_0",
+          "RAM_IP_07_00/clka",
+          "RAM_IP_23_16/clka",
+          "RAM_IP_15_08/clka",
+          "RAM_IP_31_24/clka",
+          "Conct_Out_RAM/clk"
+        ]
+      },
+      "wea_0_2": {
+        "ports": [
+          "wea_0",
+          "RAM_IP_07_00/wea",
+          "RAM_IP_23_16/wea",
+          "RAM_IP_15_08/wea",
+          "RAM_IP_31_24/wea"
+        ]
+      }
+    }
+  }
+}

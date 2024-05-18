@@ -1,0 +1,123 @@
+{
+   "ActiveEmotionalView":"Grouping and No Loops",
+   "Color Coded_ScaleFactor":"0.8",
+   "Color Coded_TopLeft":"-760,-275",
+   "Default View_ScaleFactor":"0.8",
+   "Default View_TopLeft":"-760,-275",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_Layout":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clka_0 -pg 1 -lvl 0 -x -870 -y 160 -defaultsOSRD
+preplace portBus RAM_write -pg 1 -lvl 0 -x -870 -y 480 -defaultsOSRD
+preplace portBus RAM_read -pg 1 -lvl 4 -x 1100 -y 590 -defaultsOSRD
+preplace portBus wea_0 -pg 1 -lvl 0 -x -870 -y 200 -defaultsOSRD
+preplace portBus addr_RAM -pg 1 -lvl 0 -x -870 -y 60 -defaultsOSRD
+preplace inst Conct_Out_RAM -pg 1 -lvl 3 -x 940 -y 400 -swap {3 0 2 4 1 5} -defaultsOSRD -pinDir clk left -pinY clk 80L -pinBusDir in31_24 left -pinBusY in31_24 20L -pinBusDir in23_16 left -pinBusY in23_16 60L -pinBusDir in15_08 left -pinBusY in15_08 100L -pinBusDir in07_00 left -pinBusY in07_00 40L -pinBusDir DATA right -pinBusY DATA 20R
+preplace inst RAM_IP_07_00 -pg 1 -lvl 2 -x 570 -y 870 -defaultsOSRD -pinDir BRAM_PORTA left -pinY BRAM_PORTA 20L -pinDir BRAM_PORTA.addra left -pinY BRAM_PORTA.addra 40L -pinDir BRAM_PORTA.clka left -pinY BRAM_PORTA.clka 60L -pinDir BRAM_PORTA.dina left -pinY BRAM_PORTA.dina 80L -pinDir BRAM_PORTA.douta left -pinY BRAM_PORTA.douta 100L -pinDir BRAM_PORTA.wea left -pinY BRAM_PORTA.wea 120L
+preplace inst RAM_IP_23_16 -pg 1 -lvl 2 -x 570 -y 330 -defaultsOSRD -pinDir BRAM_PORTA left -pinY BRAM_PORTA 20L -pinDir BRAM_PORTA.addra left -pinY BRAM_PORTA.addra 40L -pinDir BRAM_PORTA.clka left -pinY BRAM_PORTA.clka 60L -pinDir BRAM_PORTA.dina left -pinY BRAM_PORTA.dina 80L -pinDir BRAM_PORTA.douta left -pinY BRAM_PORTA.douta 100L -pinDir BRAM_PORTA.wea left -pinY BRAM_PORTA.wea 120L
+preplace inst RAM_IP_15_08 -pg 1 -lvl 2 -x 570 -y 630 -defaultsOSRD -pinDir BRAM_PORTA left -pinY BRAM_PORTA 20L -pinDir BRAM_PORTA.addra left -pinY BRAM_PORTA.addra 40L -pinDir BRAM_PORTA.clka left -pinY BRAM_PORTA.clka 60L -pinDir BRAM_PORTA.dina left -pinY BRAM_PORTA.dina 80L -pinDir BRAM_PORTA.douta left -pinY BRAM_PORTA.douta 100L -pinDir BRAM_PORTA.wea left -pinY BRAM_PORTA.wea 120L
+preplace inst RAM_IP_31_24 -pg 1 -lvl 2 -x 570 -y 70 -defaultsOSRD -pinDir BRAM_PORTA left -pinY BRAM_PORTA 20L -pinDir BRAM_PORTA.addra left -pinY BRAM_PORTA.addra 40L -pinDir BRAM_PORTA.clka left -pinY BRAM_PORTA.clka 60L -pinDir BRAM_PORTA.dina left -pinY BRAM_PORTA.dina 80L -pinDir BRAM_PORTA.douta left -pinY BRAM_PORTA.douta 100L -pinDir BRAM_PORTA.wea left -pinY BRAM_PORTA.wea 120L
+preplace inst SliptD_IN_RAM -pg 1 -lvl 1 -x 180 -y 460 -defaultsOSRD -pinBusDir DATA left -pinBusY DATA 20L -pinBusDir out31_24 right -pinBusY out31_24 20R -pinBusDir out23_16 right -pinBusY out23_16 40R -pinBusDir out15_08 right -pinBusY out15_08 60R -pinBusDir out07_00 right -pinBusY out07_00 80R
+preplace netloc Conct_Out_RAM_0_DATA 1 3 1 1070 420n
+preplace netloc DATA_1_1 1 0 1 N 480
+preplace netloc RAM_IP_07_00_douta 1 1 2 450 290 670
+preplace netloc RAM_IP_15_08_douta 1 1 2 470 830 710
+preplace netloc RAM_IP_23_16_douta 1 1 2 470 510 670
+preplace netloc RAM_IP_31_24_douta 1 1 2 470 250 710
+preplace netloc SliptD_IN_RAM_0_out07_00 1 1 1 320 540n
+preplace netloc SliptD_IN_RAM_0_out15_08 1 1 1 370 520n
+preplace netloc SliptD_IN_RAM_0_out23_16 1 1 1 410 410n
+preplace netloc SliptD_IN_RAM_0_out31_24 1 1 1 370 150n
+preplace netloc addra_0_2 1 0 2 -850J 50 390
+preplace netloc clka_0_2 1 0 3 -850J 640 430 810 690
+preplace netloc wea_0_2 1 0 2 -830J 190 350
+levelinfo -pg 1 -870 180 570 940 1100
+pagesize -pg 1 -db -bbox -sgen -1870 -540 5190 2090
+",
+   "Grouping and No Loops_ScaleFactor":"0.625",
+   "Grouping and No Loops_TopLeft":"-101,16",
+   "Interfaces View_Layers":"/clk_wiz_clk_out1:false|/clk_wiz_2_clk_out1:false|/reset_rtl_0_1_2_1:false|/rst_clk_wiz_2_100M_peripheral_aresetn:false|/reset_rtl_1:false|/reset_rtl_0_1_1:false|/rst_clk_wiz_1_100M_peripheral_aresetn:false|/clk_wiz_3_clk_out1:false|/rst_clk_wiz_100M_peripheral_aresetn:false|/reset_rtl_0_1:false|/rst_clk_wiz_3_100M_peripheral_aresetn:false|/sys_clock_1:false|/clk_wiz_1_clk_out1:false|",
+   "Interfaces View_ScaleFactor":"0.8",
+   "Interfaces View_TopLeft":"-760,-275",
+   "No Loops_ExpandedHierarchyInLayout":"",
+   "No Loops_Layout":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_rs2 -pg 1 -lvl 0 -x -930 -y 290 -defaultsOSRD
+preplace port port-id_rdst -pg 1 -lvl 0 -x -930 -y 250 -defaultsOSRD
+preplace port port-id_rs1 -pg 1 -lvl 0 -x -930 -y 270 -defaultsOSRD
+preplace port port-id_bit16 -pg 1 -lvl 0 -x -930 -y 360 -defaultsOSRD
+preplace port port-id_sext16 -pg 1 -lvl 0 -x -930 -y 400 -defaultsOSRD
+preplace port port-id_sext17 -pg 1 -lvl 0 -x -930 -y 430 -defaultsOSRD
+preplace port port-id_opcode -pg 1 -lvl 0 -x -930 -y 570 -defaultsOSRD
+preplace port port-id_sext22 -pg 1 -lvl 0 -x -930 -y 460 -defaultsOSRD
+preplace port port-id_sext23 -pg 1 -lvl 0 -x -930 -y 490 -defaultsOSRD
+preplace portBus douta_0 -pg 1 -lvl 0:w -x -930 -y 90 -defaultsOSRD -left
+preplace inst SinglePort_RAM_RegFile_rdst -pg 1 -lvl 4 -x 580 -y 520 -defaultsOSRD -pinDir BRAM_PORTA left -pinY BRAM_PORTA 20L -pinDir BRAM_PORTA.addra left -pinY BRAM_PORTA.addra 40L -pinDir BRAM_PORTA.clka left -pinY BRAM_PORTA.clka 60L -pinDir BRAM_PORTA.dina left -pinY BRAM_PORTA.dina 80L -pinDir BRAM_PORTA.douta left -pinY BRAM_PORTA.douta 100L -pinDir BRAM_PORTA.ena left -pinY BRAM_PORTA.ena 120L -pinDir BRAM_PORTA.rsta left -pinY BRAM_PORTA.rsta 140L -pinDir BRAM_PORTA.wea left -pinY BRAM_PORTA.wea 160L -pinDir rsta_busy right -pinY rsta_busy 20R
+preplace inst Instruction_Memory_IP -pg 1 -lvl 2 -x -320 -y 10 -defaultsOSRD -pinDir BRAM_PORTA left -pinY BRAM_PORTA 20L -pinDir BRAM_PORTA.addra left -pinY BRAM_PORTA.addra 40L -pinDir BRAM_PORTA.clka left -pinY BRAM_PORTA.clka 60L -pinDir BRAM_PORTA.douta left -pinY BRAM_PORTA.douta 80L -pinDir BRAM_PORTA.ena left -pinY BRAM_PORTA.ena 100L -pinDir BRAM_PORTA.rsta left -pinY BRAM_PORTA.rsta 120L -pinDir rsta_busy right -pinY rsta_busy 20R
+preplace inst CondCode_0 -pg 1 -lvl 7 -x 1580 -y 50 -swap {6 7 5 4 3 2 0 1 8} -defaultsOSRD -pinDir clk left -pinY clk 60L -pinDir rst left -pinY rst 80L -pinDir Overflow right -pinY Overflow 80R -pinDir Negative right -pinY Negative 60R -pinDir Carry right -pinY Carry 40R -pinDir Zero right -pinY Zero 20R -pinBusDir cond left -pinBusY cond 20L -pinBusDir opcode left -pinBusY opcode 40L -pinDir branchValid left -pinY branchValid 100L
+preplace inst PCAdder_0 -pg 1 -lvl 4 -x 580 -y -370 -swap {0 2 1 3 4 5 6 7 8} -defaultsOSRD -pinDir clk left -pinY clk 20L -pinDir rst left -pinY rst 60L -pinBusDir PCin left -pinBusY PCin 40L -pinBusDir PCsource left -pinBusY PCsource 90L -pinDir PCload left -pinY PCload 110L -pinBusDir sext23 left -pinBusY sext23 130L -pinBusDir sext16 left -pinBusY sext16 150L -pinBusDir rs1 left -pinBusY rs1 170L -pinBusDir PCoutMux right -pinBusY PCoutMux 60R
+preplace inst ProgramCounter_0 -pg 1 -lvl 1 -x -740 -y -220 -swap {0 2 1 3 4} -defaultsOSRD -pinDir clk left -pinY clk 20L -pinDir rst left -pinY rst 60L -pinBusDir PCin left -pinBusY PCin 40L -pinDir PCload left -pinY PCload 80L -pinBusDir PCout right -pinBusY PCout 20R
+preplace inst Mux5b_2x1_0 -pg 1 -lvl 3 -x 110 -y 300 -defaultsOSRD -pinBusDir in_0 left -pinBusY in_0 20L -pinBusDir in_1 left -pinBusY in_1 40L -pinDir control left -pinY control 60L -pinBusDir out right -pinBusY out 20R
+preplace inst Mux32b_2x1_0 -pg 1 -lvl 5 -x 930 -y 380 -swap {2 0 1 3} -defaultsOSRD -pinBusDir in_0 left -pinBusY in_0 60L -pinBusDir in_1 left -pinBusY in_1 20L -pinDir control left -pinY control 40L -pinBusDir out right -pinBusY out 20R
+preplace inst DualPort_ROM_RegFile_Reg1A_Reg2B -pg 1 -lvl 4 -x 580 -y -40 -defaultsOSRD -pinDir BRAM_PORTA left -pinY BRAM_PORTA 0L -pinDir BRAM_PORTA.addra left -pinY BRAM_PORTA.addra 20L -pinDir BRAM_PORTA.clka left -pinY BRAM_PORTA.clka 40L -pinDir BRAM_PORTA.douta left -pinY BRAM_PORTA.douta 80L -pinDir BRAM_PORTA.ena left -pinY BRAM_PORTA.ena 100L -pinDir BRAM_PORTA.rsta left -pinY BRAM_PORTA.rsta 120L -pinDir BRAM_PORTB left -pinY BRAM_PORTB 140L -pinDir BRAM_PORTB.addrb left -pinY BRAM_PORTB.addrb 160L -pinDir BRAM_PORTB.clkb left -pinY BRAM_PORTB.clkb 180L -pinDir BRAM_PORTB.doutb left -pinY BRAM_PORTB.doutb 200L -pinDir BRAM_PORTB.enb left -pinY BRAM_PORTB.enb 220L -pinDir BRAM_PORTB.rstb left -pinY BRAM_PORTB.rstb 240L -pinDir rsta_busy right -pinY rsta_busy 20R -pinDir rstb_busy right -pinY rstb_busy 40R
+preplace inst Mux32b_2x1_1 -pg 1 -lvl 6 -x 1210 -y 380 -swap {0 2 1 3} -defaultsOSRD -pinBusDir in_0 left -pinBusY in_0 20L -pinBusDir in_1 left -pinBusY in_1 60L -pinDir control left -pinY control 40L -pinBusDir out right -pinBusY out 20R
+preplace inst control_unit_0 -pg 1 -lvl 1 -x -740 -y 650 -swap {1 2 0 3 10 11 4 6 9 8 7 5 12 13 14 15} -defaultsOSRD -pinDir clk left -pinY clk 40L -pinDir rst left -pinY rst 60L -pinBusDir opcode left -pinBusY opcode 20L -pinDir bit16 left -pinY bit16 80L -pinDir branchValid right -pinY branchValid 140R -pinDir branchTaken right -pinY branchTaken 160R -pinDir Flag_Memread right -pinY Flag_Memread 20R -pinDir Flag_Memwrite right -pinY Flag_Memwrite 60R -pinDir Flag_RegWrite right -pinY Flag_RegWrite 120R -pinDir Flag_Indexed right -pinY Flag_Indexed 100R -pinDir ImmedMemAddress right -pinY ImmedMemAddress 80R -pinBusDir ALUoperation right -pinBusY ALUoperation 40R -pinDir PCload right -pinY PCload 180R -pinDir IRload right -pinY IRload 200R -pinBusDir PCsource right -pinBusY PCsource 220R -pinDir RegDst right -pinY RegDst 240R
+preplace inst ALU_0 -pg 1 -lvl 7 -x 1580 -y 280 -swap {0 2 1 7 3 4 5 6} -defaultsOSRD -pinBusDir source1 left -pinBusY source1 20L -pinBusDir source2 left -pinBusY source2 60L -pinBusDir ALUoperation left -pinBusY ALUoperation 40L -pinBusDir result right -pinBusY result 100R -pinDir Overflow right -pinY Overflow 20R -pinDir Negative right -pinY Negative 40R -pinDir Carry right -pinY Carry 60R -pinDir Zero right -pinY Zero 80R
+preplace inst Mux32b_2x1_2 -pg 1 -lvl 8 -x 1970 -y 410 -defaultsOSRD -pinBusDir in_0 left -pinBusY in_0 20L -pinBusDir in_1 left -pinBusY in_1 40L -pinDir control left -pinY control 60L -pinBusDir out right -pinBusY out 20R
+preplace inst Data_Memory_IP -pg 1 -lvl 9 -x 2250 -y 390 -defaultsOSRD -pinDir BRAM_PORTA left -pinY BRAM_PORTA 20L -pinDir BRAM_PORTA.addra left -pinY BRAM_PORTA.addra 40L -pinDir BRAM_PORTA.clka left -pinY BRAM_PORTA.clka 60L -pinDir BRAM_PORTA.dina left -pinY BRAM_PORTA.dina 80L -pinDir BRAM_PORTA.douta left -pinY BRAM_PORTA.douta 100L -pinDir BRAM_PORTA.ena left -pinY BRAM_PORTA.ena 120L -pinDir BRAM_PORTA.wea left -pinY BRAM_PORTA.wea 160L
+preplace inst Mux32b_2x1_3 -pg 1 -lvl 10 -x 2470 -y 400 -swap {3 2 1 0} -defaultsOSRD -pinBusDir in_0 left -pinBusY in_0 80L -pinBusDir in_1 left -pinBusY in_1 60L -pinDir control left -pinY control 40L -pinBusDir out left -pinBusY out 20L
+preplace inst Mux32b_2x1_4 -pg 1 -lvl 3 -x 110 -y 850 -defaultsOSRD -pinBusDir in_0 right -pinBusY in_0 20R -pinBusDir in_1 left -pinBusY in_1 20L -pinDir control left -pinY control 40L -pinBusDir out right -pinBusY out 40R
+preplace netloc ALU_0_Carry 1 7 1 1770 90n
+preplace netloc ALU_0_Negative 1 7 1 1750 110n
+preplace netloc ALU_0_Overflow 1 7 1 1730 130n
+preplace netloc ALU_0_Zero 1 7 1 1790 70n
+preplace netloc Instruction_Memory_IP_douta 1 0 2 NJ 90 N
+preplace netloc ProgramCounter_0_PCout 1 1 2 -590 -30 -90
+preplace netloc rdst_1 1 0 4 -890J 310 -530J 300 -30 440 310J
+preplace netloc rs2_1 1 0 3 NJ 290 -570J 280 -10
+preplace netloc Mux5b_2x1_0_out 1 3 1 250 120n
+preplace netloc rs1_1 1 0 4 -910J 140 -590J 220 NJ 220 230J
+preplace netloc DualPort_ROM_RegFile_Reg1A_Reg2B_doutb 1 3 6 430 460 810J 500 NJ 500 1330 460 1730 530 2130J
+preplace netloc bit16_1 1 0 5 NJ 360 NJ 360 -150J 540 410J 420 N
+preplace netloc sext16_1 1 0 5 -910J 340 NJ 340 -70J 460 290J 360 810
+preplace netloc Mux32b_2x1_0_out 1 5 1 N 400
+preplace netloc sext17_1 1 0 6 NJ 430 NJ 430 -190J 560 430J 480 730J 560 1090
+preplace netloc control_unit_0_Flag_Memwrite 1 1 8 -510 320 -50J 420 270 320 NJ 320 NJ 320 1350 440 1810 320 2090J
+preplace netloc opcode_1 1 0 1 -890 570n
+preplace netloc CondCode_0_branchValid 1 1 6 -450J 610 NJ 610 230J 740 NJ 740 NJ 740 1390J
+preplace netloc control_unit_0_Flag_Indexed 1 1 5 -470 410 -130J 480 390J 440 750J 540 1050J
+preplace netloc Mux32b_2x1_1_out 1 6 1 1330 340n
+preplace netloc DualPort_ROM_RegFile_Reg1A_Reg2B_douta 1 3 4 430 -100 790J 30 NJ 30 1410
+preplace netloc control_unit_0_ALUoperation 1 1 6 -550 260 NJ 260 NJ 260 NJ 260 NJ 260 1370J
+preplace netloc ALU_0_result 1 7 1 1830 380n
+preplace netloc sext22_1 1 0 8 NJ 460 NJ 460 -170J 520 330J 380 770J 580 NJ 580 1410J 500 1830
+preplace netloc control_unit_0_ImmedMemAddress 1 1 7 -490J 390 -110J 500 350J 400 790J 520 1070J 600 1430J 520 1850
+preplace netloc control_unit_0_Flag_RegWrite 1 1 3 NJ 770 NJ 770 410
+preplace netloc Mux32b_2x1_2_out 1 8 2 2110 630 2370
+preplace netloc control_unit_0_Flag_Memread 1 1 9 -590J 240 NJ 240 270J 280 810J 240 NJ 240 NJ 240 NJ 240 NJ 240 2350
+preplace netloc Data_Memory_IP_douta 1 8 2 2150 610 2350
+preplace netloc Mux32b_2x1_3_out 1 3 7 370J 300 790J 220 NJ 220 NJ 220 NJ 220 NJ 220 2370J
+preplace netloc control_unit_0_RegDst 1 1 2 NJ 890 N
+preplace netloc Mux32b_2x1_4_out 1 3 1 430 600n
+levelinfo -pg 1 -930 -740 -320 110 580 930 1210 1580 1970 2250 2470 2570
+pagesize -pg 1 -db -bbox -sgen -1090 -1130 2570 1320
+",
+   "No Loops_ScaleFactor":"0.765621",
+   "No Loops_TopLeft":"1896,-84",
+   "Reduced Jogs_Layers":"/clk_wiz_clk_out1:true|/clk_wiz_2_clk_out1:true|/reset_rtl_0_1_2_1:true|/rst_clk_wiz_2_100M_peripheral_aresetn:true|/reset_rtl_1:true|/reset_rtl_0_1_1:true|/rst_clk_wiz_1_100M_peripheral_aresetn:true|/clk_wiz_3_clk_out1:true|/rst_clk_wiz_100M_peripheral_aresetn:true|/reset_rtl_0_1:true|/rst_clk_wiz_3_100M_peripheral_aresetn:true|/sys_clock_1:true|/clk_wiz_1_clk_out1:true|",
+   "Reduced Jogs_ScaleFactor":"0.318253",
+   "Reduced Jogs_TopLeft":"-148,-600",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+levelinfo -pg 1 0 130 260
+pagesize -pg 1 -db -bbox -sgen 0 -220 260 120
+"
+}
+{
+   "da_board_cnt":"34",
+   "da_clkrst_cnt":"22"
+}

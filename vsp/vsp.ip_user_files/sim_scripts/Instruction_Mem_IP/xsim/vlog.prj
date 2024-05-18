@@ -1,0 +1,15 @@
+verilog xil_defaultlib  \
+"../../../bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_blk_mem_gen_0_0/sim/Instruction_Mem_IP_blk_mem_gen_0_0.v" \
+"../../../bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_IP_Instruction_31_24_0/sim/Instruction_Mem_IP_IP_Instruction_31_24_0.v" \
+"../../../bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_IP_Instruction_31_24_1/sim/Instruction_Mem_IP_IP_Instruction_31_24_1.v" \
+"../../../bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_IP_Instruction_31_24_2/sim/Instruction_Mem_IP_IP_Instruction_31_24_2.v" \
+"../../../bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_Address_Adder_0_1/sim/Instruction_Mem_IP_Address_Adder_0_1.v" \
+"../../../bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_Address_Adder_0_2/sim/Instruction_Mem_IP_Address_Adder_0_2.v" \
+"../../../bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_Address_Adder_1_0/sim/Instruction_Mem_IP_Address_Adder_1_0.v" \
+"../../../bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_Conct_Out_RAM_0_0/sim/Instruction_Mem_IP_Conct_Out_RAM_0_0.v" \
+"../../../bd/Instruction_Mem_IP/sim/Instruction_Mem_IP.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

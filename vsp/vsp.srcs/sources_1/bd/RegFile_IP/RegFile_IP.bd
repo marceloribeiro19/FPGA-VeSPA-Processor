@@ -1,0 +1,247 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x5E290EF0849CF90E",
+      "device": "xc7z010clg400-1",
+      "gen_directory": "../../../../vsp.gen/sources_1/bd/RegFile_IP",
+      "name": "RegFile_IP",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "RegFile_IP_rdst_Reg1": "",
+      "RegFile_IP_rdst_Reg2": ""
+    },
+    "ports": {
+      "clkb_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "RegFile_IP_clkb_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "readReg2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "rs2": {
+        "direction": "I",
+        "left": "4",
+        "right": "0"
+      },
+      "RegWrite": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "WriteData": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "WriteAddr": {
+        "direction": "I",
+        "left": "4",
+        "right": "0"
+      },
+      "readReg1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "rs1": {
+        "direction": "I",
+        "left": "4",
+        "right": "0"
+      }
+    },
+    "components": {
+      "RegFile_IP_rdst_Reg1": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "RegFile_IP_blk_mem_gen_0_0",
+        "xci_path": "ip/RegFile_IP_blk_mem_gen_0_0/RegFile_IP_blk_mem_gen_0_0.xci",
+        "inst_hier_path": "RegFile_IP_rdst_Reg1",
+        "parameters": {
+          "Assume_Synchronous_Clk": {
+            "value": "true"
+          },
+          "Coe_File": {
+            "value": "../../RegFileInit.coe"
+          },
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Enable_B": {
+            "value": "Always_Enabled"
+          },
+          "Fill_Remaining_Memory_Locations": {
+            "value": "true"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Memory_Type": {
+            "value": "Simple_Dual_Port_RAM"
+          },
+          "Operating_Mode_A": {
+            "value": "READ_FIRST"
+          },
+          "Port_B_Clock": {
+            "value": "100"
+          },
+          "Port_B_Enable_Rate": {
+            "value": "100"
+          },
+          "Register_PortB_Output_of_Memory_Primitives": {
+            "value": "false"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "32"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "RegFile_IP_rdst_Reg2": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "RegFile_IP_blk_mem_gen_0_1",
+        "xci_path": "ip/RegFile_IP_blk_mem_gen_0_1/RegFile_IP_blk_mem_gen_0_1.xci",
+        "inst_hier_path": "RegFile_IP_rdst_Reg2",
+        "parameters": {
+          "Assume_Synchronous_Clk": {
+            "value": "true"
+          },
+          "Coe_File": {
+            "value": "../../RegFileInit.coe"
+          },
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Enable_B": {
+            "value": "Always_Enabled"
+          },
+          "Fill_Remaining_Memory_Locations": {
+            "value": "true"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Memory_Type": {
+            "value": "Simple_Dual_Port_RAM"
+          },
+          "Operating_Mode_A": {
+            "value": "READ_FIRST"
+          },
+          "Port_B_Clock": {
+            "value": "100"
+          },
+          "Port_B_Enable_Rate": {
+            "value": "100"
+          },
+          "Register_PortB_Output_of_Memory_Primitives": {
+            "value": "false"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "32"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      }
+    },
+    "nets": {
+      "RegFile_IP_rdst_Reg1_doutb": {
+        "ports": [
+          "RegFile_IP_rdst_Reg1/doutb",
+          "readReg1"
+        ]
+      },
+      "RegFile_IP_rdst_Reg2_doutb": {
+        "ports": [
+          "RegFile_IP_rdst_Reg2/doutb",
+          "readReg2"
+        ]
+      },
+      "addra_0_1": {
+        "ports": [
+          "WriteAddr",
+          "RegFile_IP_rdst_Reg1/addra",
+          "RegFile_IP_rdst_Reg2/addra"
+        ]
+      },
+      "addrb_0_1": {
+        "ports": [
+          "rs2",
+          "RegFile_IP_rdst_Reg2/addrb"
+        ]
+      },
+      "addrb_0_2": {
+        "ports": [
+          "rs1",
+          "RegFile_IP_rdst_Reg1/addrb"
+        ]
+      },
+      "clkb_0_1": {
+        "ports": [
+          "clkb_0",
+          "RegFile_IP_rdst_Reg1/clka",
+          "RegFile_IP_rdst_Reg1/clkb",
+          "RegFile_IP_rdst_Reg2/clka",
+          "RegFile_IP_rdst_Reg2/clkb"
+        ]
+      },
+      "dina_0_1": {
+        "ports": [
+          "WriteData",
+          "RegFile_IP_rdst_Reg1/dina",
+          "RegFile_IP_rdst_Reg2/dina"
+        ]
+      },
+      "wea_0_1": {
+        "ports": [
+          "RegWrite",
+          "RegFile_IP_rdst_Reg1/wea",
+          "RegFile_IP_rdst_Reg2/wea"
+        ]
+      }
+    }
+  }
+}

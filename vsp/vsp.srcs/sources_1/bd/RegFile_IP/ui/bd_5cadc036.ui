@@ -1,0 +1,30 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.90971",
+   "Default View_TopLeft":"-363,-199",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clkb_0 -pg 1 -lvl 0 -x -40 -y 300 -defaultsOSRD
+preplace portBus readReg2 -pg 1 -lvl 2 -x 260 -y 250 -defaultsOSRD
+preplace portBus rs2 -pg 1 -lvl 0 -x -40 -y 280 -defaultsOSRD
+preplace portBus RegWrite -pg 1 -lvl 0 -x -40 -y 240 -defaultsOSRD
+preplace portBus WriteData -pg 1 -lvl 0 -x -40 -y 220 -defaultsOSRD
+preplace portBus WriteAddr -pg 1 -lvl 0 -x -40 -y 180 -defaultsOSRD
+preplace portBus readReg1 -pg 1 -lvl 2 -x 260 -y 20 -defaultsOSRD
+preplace portBus rs1 -pg 1 -lvl 0 -x -40 -y -20 -defaultsOSRD
+preplace inst RegFile_IP_rdst_Reg1 -pg 1 -lvl 1 -x 130 -y -60 -defaultsOSRD
+preplace inst RegFile_IP_rdst_Reg2 -pg 1 -lvl 1 -x 130 -y 240 -defaultsOSRD
+preplace netloc RegFile_IP_rdst_Reg1_doutb 1 0 2 20 80 240J
+preplace netloc RegFile_IP_rdst_Reg2_doutb 1 0 2 20 380 240J
+preplace netloc addra_0_1 1 0 1 -20 -120n
+preplace netloc addrb_0_1 1 0 1 N 280
+preplace netloc addrb_0_2 1 0 1 N -20
+preplace netloc clkb_0_1 1 0 1 0 -100n
+preplace netloc dina_0_1 1 0 1 -10 -80n
+preplace netloc wea_0_1 1 0 1 10 -60n
+levelinfo -pg 1 -40 130 260
+pagesize -pg 1 -db -bbox -sgen -210 -270 430 500
+"
+}
+0

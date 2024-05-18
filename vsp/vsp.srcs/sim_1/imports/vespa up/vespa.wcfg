@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Toplyr_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Toplyr_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="100.801 ns"></ZoomEndTime>
+      <Cursor1Time time="95.600 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="92"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/PCload">
+      <obj_property name="ElementShortName">PCload</obj_property>
+      <obj_property name="ObjectShortName">PCload</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/ControlUnit/State">
+      <obj_property name="ElementShortName">State[2:0]</obj_property>
+      <obj_property name="ObjectShortName">State[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/PCMUX/PCsource">
+      <obj_property name="ElementShortName">PCsource[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCsource[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/PCMUX/Current_PC">
+      <obj_property name="ElementShortName">Current_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Current_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/PCounter/PCout">
+      <obj_property name="ElementShortName">PCout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/CODE_MEM_IP/Full_Instruction">
+      <obj_property name="ElementShortName">Full_Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Full_Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/CODE_MEM_IP/PC_IN">
+      <obj_property name="ElementShortName">PC_IN[9:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_IN[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/PCMUX/PCoutMux">
+      <obj_property name="ElementShortName">PCoutMux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCoutMux[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/PCMUX/PCin">
+      <obj_property name="ElementShortName">PCin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/aluInst/ALUoperation">
+      <obj_property name="ElementShortName">ALUoperation[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUoperation[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/PCounter/PCin">
+      <obj_property name="ElementShortName">PCin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Toplyr_TB/test/CPU/DP/PCounter/PCout">
+      <obj_property name="ElementShortName">PCout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Toplyr_TB/test/CPU/ControlUnit/InterruptCTRL/intr_ended_ack">
+      <obj_property name="ElementShortName">intr_ended_ack</obj_property>
+      <obj_property name="ObjectShortName">intr_ended_ack</obj_property>
+   </wvobject>
+</wave_config>

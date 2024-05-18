@@ -1,0 +1,48 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../vsp.srcs/sources_1/new/Unify_Instruc.v" \
+"../../../../vsp.srcs/sources_1/new/Data31_to_4x8b.v" \
+"../../../../vsp.srcs/sources_1/new/Adder.v" \
+"../../../../vsp.ip_user_files/bd/design_1/ip/design_1_Conct_Out_RAM_0_1/sim/design_1_Conct_Out_RAM_0_1.v" \
+"../../../../vsp.ip_user_files/bd/design_1/ip/design_1_RAM_IP_31_24_0/sim/design_1_RAM_IP_31_24_0.v" \
+"../../../../vsp.ip_user_files/bd/design_1/ip/design_1_RAM_IP_31_24_1/sim/design_1_RAM_IP_31_24_1.v" \
+"../../../../vsp.ip_user_files/bd/design_1/ip/design_1_RAM_IP_31_24_2/sim/design_1_RAM_IP_31_24_2.v" \
+"../../../../vsp.ip_user_files/bd/design_1/ip/design_1_blk_mem_gen_0_0_1/sim/design_1_blk_mem_gen_0_0.v" \
+"../../../../vsp.ip_user_files/bd/design_1/ip/design_1_SliptD_IN_RAM_0_1/sim/design_1_SliptD_IN_RAM_0_1.v" \
+"../../../../vsp.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../vsp.ip_user_files/bd/RegFile_IP/ip/RegFile_IP_blk_mem_gen_0_0/sim/RegFile_IP_blk_mem_gen_0_0.v" \
+"../../../../vsp.ip_user_files/bd/RegFile_IP/ip/RegFile_IP_blk_mem_gen_0_1/sim/RegFile_IP_blk_mem_gen_0_1.v" \
+"../../../../vsp.ip_user_files/bd/RegFile_IP/sim/RegFile_IP.v" \
+"../../../../vsp.ip_user_files/bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_blk_mem_gen_0_0/sim/Instruction_Mem_IP_blk_mem_gen_0_0.v" \
+"../../../../vsp.ip_user_files/bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_IP_Instruction_31_24_0/sim/Instruction_Mem_IP_IP_Instruction_31_24_0.v" \
+"../../../../vsp.ip_user_files/bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_IP_Instruction_31_24_1/sim/Instruction_Mem_IP_IP_Instruction_31_24_1.v" \
+"../../../../vsp.ip_user_files/bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_IP_Instruction_31_24_2/sim/Instruction_Mem_IP_IP_Instruction_31_24_2.v" \
+"../../../../vsp.ip_user_files/bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_Address_Adder_0_1/sim/Instruction_Mem_IP_Address_Adder_0_1.v" \
+"../../../../vsp.ip_user_files/bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_Address_Adder_0_2/sim/Instruction_Mem_IP_Address_Adder_0_2.v" \
+"../../../../vsp.ip_user_files/bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_Address_Adder_1_0/sim/Instruction_Mem_IP_Address_Adder_1_0.v" \
+"../../../../vsp.ip_user_files/bd/Instruction_Mem_IP/ip/Instruction_Mem_IP_Conct_Out_RAM_0_0/sim/Instruction_Mem_IP_Conct_Out_RAM_0_0.v" \
+"../../../../vsp.ip_user_files/bd/Instruction_Mem_IP/sim/Instruction_Mem_IP.v" \
+"../../../../vsp.srcs/sources_1/new/ALU.v" \
+"../../../../vsp.srcs/sources_1/new/CondCode.v" \
+"../../../../vsp.srcs/sources_1/new/Datapath.v" \
+"../../../../vsp.srcs/sources_1/new/Decode_Instruction.v" \
+"../../../../vsp.srcs/sources_1/new/HALT_AND_CLK.v" \
+"../../../../vsp.srcs/sources_1/imports/hdl/Instruction_Mem_IP_wrapper.v" \
+"../../../../vsp.srcs/sources_1/new/InterruptController.v" \
+"../../../../vsp.srcs/sources_1/new/Mux32b_2x1.v" \
+"../../../../vsp.srcs/sources_1/new/Mux5b_2x1.v" \
+"../../../../vsp.srcs/sources_1/new/PCAdder.v" \
+"../../../../vsp.srcs/sources_1/new/PS2_keyboard_controller.v" \
+"../../../../vsp.srcs/sources_1/new/ProgramCounter.v" \
+"../../../../vsp.srcs/sources_1/imports/hdl/RegFile_IP_wrapper.v" \
+"../../../../vsp.srcs/sources_1/new/Toplyr.v" \
+"../../../../vsp.srcs/sources_1/new/VeSPA_CPU.v" \
+"../../../../vsp.srcs/sources_1/new/control_unit.v" \
+"../../../../vsp.srcs/sources_1/imports/hdl/design_1_wrapper.v" \
+"../../../../vsp.srcs/sim_1/new/Toplyr_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

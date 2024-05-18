@@ -1,0 +1,97 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "Toplyr")
+(DATE "Sat Nov 25 21:47:32 2023")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2023.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "RAMB18E1")
+  (INSTANCE CODE_MEM_IP/Instruction_Mem_IP_i/IP_Instruction_31_24/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_init\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.SP\.SIMPLE_PRIM18\.ram)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH CLKARDCLK DOADO[15:0] (1353.0:2454.0:2454.0) (1353.0:2454.0:2454.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge ENARDEN) (posedge CLKARDCLK) (-227.0:443.0:443.0) (227.0:227.0:227.0))
+      (SETUPHOLD (negedge ENARDEN) (posedge CLKARDCLK) (-227.0:443.0:443.0) (227.0:227.0:227.0))
+      (SETUPHOLD (posedge ENBWREN) (posedge CLKBWRCLK) (-227.0:443.0:443.0) (227.0:227.0:227.0))
+      (SETUPHOLD (negedge ENBWREN) (posedge CLKBWRCLK) (-227.0:443.0:443.0) (227.0:227.0:227.0))
+      (SETUPHOLD (posedge RSTRAMARSTRAM) (posedge CLKARDCLK) (-453.0:359.0:359.0) (453.0:453.0:453.0))
+      (SETUPHOLD (negedge RSTRAMARSTRAM) (posedge CLKARDCLK) (-453.0:359.0:359.0) (453.0:453.0:453.0))
+      (SETUPHOLD (posedge RSTRAMB) (posedge CLKBWRCLK) (-453.0:359.0:359.0) (453.0:453.0:453.0))
+      (SETUPHOLD (negedge RSTRAMB) (posedge CLKBWRCLK) (-453.0:359.0:359.0) (453.0:453.0:453.0))
+      (SETUPHOLD (posedge DIPBDIP[1:0]) (posedge CLKBWRCLK) (-405.0:241.0:241.0) (405.0:405.0:405.0))
+      (SETUPHOLD (negedge DIPBDIP[1:0]) (posedge CLKBWRCLK) (-405.0:241.0:241.0) (405.0:405.0:405.0))
+      (SETUPHOLD (posedge DIBDI[15:0]) (posedge CLKBWRCLK) (-405.0:241.0:241.0) (405.0:405.0:405.0))
+      (SETUPHOLD (negedge DIBDI[15:0]) (posedge CLKBWRCLK) (-405.0:241.0:241.0) (405.0:405.0:405.0))
+      (SETUPHOLD (posedge ADDRBWRADDR[13:0]) (posedge CLKBWRCLK) (-360.0:566.0:566.0) (360.0:360.0:360.0))
+      (SETUPHOLD (negedge ADDRBWRADDR[13:0]) (posedge CLKBWRCLK) (-360.0:566.0:566.0) (360.0:360.0:360.0))
+      (SETUPHOLD (posedge WEBWE[3:0]) (posedge CLKBWRCLK) (-197.0:532.0:532.0) (197.0:197.0:197.0))
+      (SETUPHOLD (negedge WEBWE[3:0]) (posedge CLKBWRCLK) (-197.0:532.0:532.0) (197.0:197.0:197.0))
+      (SETUPHOLD (posedge ADDRARDADDR[13:0]) (posedge CLKARDCLK) (-360.0:566.0:566.0) (360.0:360.0:360.0))
+      (SETUPHOLD (negedge ADDRARDADDR[13:0]) (posedge CLKARDCLK) (-360.0:566.0:566.0) (360.0:360.0:360.0))
+      (SETUPHOLD (posedge WEA[1:0]) (posedge CLKARDCLK) (-197.0:532.0:532.0) (197.0:197.0:197.0))
+      (SETUPHOLD (negedge WEA[1:0]) (posedge CLKARDCLK) (-197.0:532.0:532.0) (197.0:197.0:197.0))
+      (SETUPHOLD (posedge DIPADIP[1:0]) (posedge CLKARDCLK) (-405.0:241.0:241.0) (405.0:405.0:405.0))
+      (SETUPHOLD (negedge DIPADIP[1:0]) (posedge CLKARDCLK) (-405.0:241.0:241.0) (405.0:405.0:405.0))
+      (SETUPHOLD (posedge DIADI[15:0]) (posedge CLKARDCLK) (-405.0:241.0:241.0) (405.0:405.0:405.0))
+      (SETUPHOLD (negedge DIADI[15:0]) (posedge CLKARDCLK) (-405.0:241.0:241.0) (405.0:405.0:405.0))
+    )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE opcode_OBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3327.9:3530.1:3530.1) (3327.9:3530.1:3530.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE opcode_OBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3335.8:3538.1:3538.1) (3335.8:3538.1:3538.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE opcode_OBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3282.7:3484.5:3484.5) (3282.7:3484.5:3484.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE opcode_OBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3306.9:3508.9:3508.9) (3306.9:3508.9:3508.9))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "Toplyr")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT CODE_MEM_IP/Instruction_Mem_IP_i/IP_Instruction_31_24/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_init\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.SP\.SIMPLE_PRIM18\.ram/DOADO[10] opcode_OBUF\[3\]_inst/I (2424.4:2816.4:2816.4) (2424.4:2816.4:2816.4))
+      (INTERCONNECT CODE_MEM_IP/Instruction_Mem_IP_i/IP_Instruction_31_24/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_init\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.SP\.SIMPLE_PRIM18\.ram/DOADO[9] opcode_OBUF\[2\]_inst/I (2576.4:2996.4:2996.4) (2576.4:2996.4:2996.4))
+      (INTERCONNECT CODE_MEM_IP/Instruction_Mem_IP_i/IP_Instruction_31_24/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_init\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.SP\.SIMPLE_PRIM18\.ram/DOADO[8] opcode_OBUF\[1\]_inst/I (2349.5:2732.5:2732.5) (2349.5:2732.5:2732.5))
+      (INTERCONNECT CODE_MEM_IP/Instruction_Mem_IP_i/IP_Instruction_31_24/U0/inst_blk_mem_gen/gnbram\.gnativebmg\.native_blk_mem_gen/valid\.cstr/ramloop\[0\]\.ram\.r/prim_init\.ram/DEVICE_7SERIES\.NO_BMM_INFO\.SP\.SIMPLE_PRIM18\.ram/DOADO[3] opcode_OBUF\[0\]_inst/I (2243.4:2605.4:2605.4) (2243.4:2605.4:2605.4))
+      )
+    )
+)
+)

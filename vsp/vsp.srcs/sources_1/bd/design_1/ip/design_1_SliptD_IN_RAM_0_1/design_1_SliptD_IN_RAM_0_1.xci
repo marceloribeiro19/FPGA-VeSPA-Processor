@@ -1,0 +1,47 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_1_SliptD_IN_RAM_0_1",
+    "cell_name": "SliptD_IN_RAM",
+    "component_reference": "xilinx.com:module_ref:SliptD_IN_RAM:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../vsp.gen/sources_1/bd/design_1/ip/design_1_SliptD_IN_RAM_0_1",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "design_1_SliptD_IN_RAM_0_1", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "digilentinc.com:zybo-z7-10:part0:1.2" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z010" } ],
+        "PACKAGE": [ { "value": "clg400" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../vsp.gen/sources_1/bd/design_1/ip/design_1_SliptD_IN_RAM_0_1" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2023.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "DATA": [ { "direction": "in", "size_left": "31", "size_right": "0" } ],
+        "out31_24": [ { "direction": "out", "size_left": "7", "size_right": "0" } ],
+        "out23_16": [ { "direction": "out", "size_left": "7", "size_right": "0" } ],
+        "out15_08": [ { "direction": "out", "size_left": "7", "size_right": "0" } ],
+        "out07_00": [ { "direction": "out", "size_left": "7", "size_right": "0" } ]
+      }
+    }
+  }
+}
